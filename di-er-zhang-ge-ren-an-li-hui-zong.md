@@ -4,38 +4,38 @@
 ####案例名称：猜猜看是几？
 
 这是一个游戏的案例，在平常我们聚会时，我们通常会玩一个游戏：首先，一个人输入一个数字，大家一块去猜，如果数字小了，那么主持人就会提示小了；如果数字大了，那么主持人提示大了。直到我们猜中这个数字。
-这就是这样一个案例，首先展示下它的拼接好的模块图
+这就是这样一个案例，首先展示下它的拼接好的模块图  
 ![](picture/xiangleilei/01.png)
-下面来运行。首先，我们设定一个数字25
+下面来运行。首先，我们设定一个数字25  
 ![](picture/xiangleilei/02.png)
-我们来猜26
+我们来猜26  
 ![](picture/xiangleilei/03.png)
-结果呢？多了。
+结果呢？多了。  
 ![](picture/xiangleilei/04.png)
-我们再猜24
+我们再猜24  
 ![](picture/xiangleilei/05.png)
-结果少了
+结果少了  
 ![](picture/xiangleilei/06.png)
-最后，我们输入25
+最后，我们输入25  
 ![](picture/xiangleilei/07.png)
-来看看
+来看看  
 ![](picture/xiangleilei/08.png)
-答案正确了。所以下次和朋友聚餐时，可以玩一下试试。
+答案正确了。所以下次和朋友聚餐时，可以玩一下试试。  
 
 ####JavaScript码
-var a, b;
+var a, b;  
 
 
-b = window.prompt('请设定数字');
-while (!(a == b)) {
-  a = parseFloat(window.prompt('猜猜看'));
-  if (a < b) {
-    window.alert('小');
-  } else if (a > b) {
-    window.alert('大');
-  }
-}
-window.alert('Bingo');
+b = window.prompt('请设定数字');  
+while (!(a == b)) {  
+  a = parseFloat(window.prompt('猜猜看'));  
+  if (a < b) {  
+    window.alert('小');  
+  } else if (a > b) {  
+    window.alert('大');  
+  }  
+}  
+window.alert('Bingo');  
 
 ####XML代码
 <xml xmlns="http://www.w3.org/1999/xhtml">
