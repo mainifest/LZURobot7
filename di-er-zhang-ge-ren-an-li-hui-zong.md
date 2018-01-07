@@ -1090,6 +1090,550 @@ window.alert\('Bingo'\);
                                                       </block>
                                                     </statement>
                                                   </block>
+ </statement>
+                                                <statement name="ELSE">
+                                                  <block type="controls_if" id=".!:u7|[k%q(g0%ZDCDTp">
+                                                    <mutation else="1"></mutation>
+                                                    <value name="IF0">
+                                                      <block type="math_number_property" id="J0Dzp~UQXa%}?z]8I#jf">
+                                                        <mutation divisor_input="false"></mutation>
+                                                        <field name="PROPERTY">WHOLE</field>
+                                                        <value name="NUMBER_TO_CHECK">
+                                                          <shadow type="math_number" id="l1/aN{$1|om9t~s~g5lw">
+                                                            <field name="NUM">0</field>
+                                                          </shadow>
+                                                          <block type="math_arithmetic" id="kqqP%2;UHu%2lRZnbWIZ">
+                                                            <field name="OP">DIVIDE</field>
+                                                            <value name="A">
+                                                              <shadow type="math_number" id="cDO/U%+ePC!tZhG1X|^;">
+                                                                <field name="NUM">1</field>
+                                                              </shadow>
+                                                              <block type="variables_get" id="h?.?A)vuS1=p^KcYRN^D">
+                                                                <field name="VAR" id="^MWItA~K?KcL[@WC*RqF" variabletype="">结束年</field>
+                                                              </block>
+                                                            </value>
+                                                            <value name="B">
+                                                              <shadow type="math_number" id="4=Zl@-d+cs094@CY|L07">
+                                                                <field name="NUM">4</field>
+                                                              </shadow>
+                                                            </value>
+                                                          </block>
+                                                        </value>
+                                                      </block>
+                                                    </value>
+                                                    <statement name="DO0">
+                                                      <block type="controls_if" id="W9P]g`Gp;(aD+6t[NdvB">
+                                                        <mutation else="1"></mutation>
+                                                        <value name="IF0">
+                                                          <block type="logic_operation" id="4}4vaRNEgY?[TD(uYdk_">
+                                                            <field name="OP">AND</field>
+                                                            <value name="A">
+                                                              <block type="logic_compare" id="}M_$A5=|7!folSW.`}l?">
+                                                                <field name="OP">GT</field>
+                                                                <value name="A">
+                                                                  <block type="variables_get" id="TjqBeab6^uh.mjb/u[Kk">
+                                                                    <field name="VAR" id="^MWItA~K?KcL[@WC*RqF" variabletype="">结束年</field>
+                                                                  </block>
+                                                                </value>
+                                                                <value name="B">
+                                                                  <block type="math_number" id="(2wP:Ns+Htz=Ao!Fvim6">
+                                                                    <field name="NUM">2</field>
+                                                                  </block>
+                                                                </value>
+                                                              </block>
+                                                            </value>
+                                                            <value name="B">
+                                                              <block type="logic_compare" id="#LM~.!(X?OiD@lqUe150">
+                                                                <field name="OP">LTE</field>
+                                                                <value name="A">
+                                                                  <block type="variables_get" id="gmdgw//wTee^z$p{Y,j3">
+                                                                    <field name="VAR" id="^MWItA~K?KcL[@WC*RqF" variabletype="">结束年</field>
+                                                                  </block>
+                                                                </value>
+                                                                <value name="B">
+                                                                  <block type="math_number" id="JbF)EvfTlhPSE]%dxI1g">
+                                                                    <field name="NUM">12</field>
+                                                                  </block>
+                                                                </value>
+                                                              </block>
+                                                            </value>
+                                                          </block>
+                                                        </value>
+                                                        <statement name="DO0">
+                                                          <block type="variables_set" id="x=lY~s1x_[PlgTH$HP`I">
+                                                            <field name="VAR" id=":xDM{V+Ad0VT2eK/Z[+?" variabletype="">Q</field>
+                                                            <value name="VALUE">
+                                                              <block type="math_arithmetic" id="1B2EHi:A_w(a_m[y|N``">
+                                                                <field name="OP">ADD</field>
+                                                                <value name="A">
+                                                                  <shadow type="math_number" id="k9!Y}PDub/R;:Nkz/hip">
+                                                                    <field name="NUM">1</field>
+                                                                  </shadow>
+                                                                  <block type="variables_get" id="-Wn+.}fWt0?/k9KXHE9]">
+                                                                    <field name="VAR" id="AHuJGJ[_R%g^(f3S{8Xs" variabletype="">结束年天数</field>
+                                                                  </block>
+                                                                </value>
+                                                                <value name="B">
+                                                                  <shadow type="math_number" id=")UPSP?2+{XYOx68eG#S8">
+                                                                    <field name="NUM">1</field>
+                                                                  </shadow>
+                                                                </value>
+                                                              </block>
+                                                            </value>
+                                                          </block>
+                                                        </statement>
+                                                        <statement name="ELSE">
+                                                          <block type="variables_set" id="rv/g|c45d/5y~dLP(1Ea">
+                                                            <field name="VAR" id=":xDM{V+Ad0VT2eK/Z[+?" variabletype="">Q</field>
+                                                            <value name="VALUE">
+                                                              <block type="variables_get" id=",ydiro~C{tScYgXHwymF">
+                                                                <field name="VAR" id="AHuJGJ[_R%g^(f3S{8Xs" variabletype="">结束年天数</field>
+                                                              </block>
+                                                            </value>
+                                                          </block>
+                                                        </statement>
+                                                      </block>
+                                                    </statement>
+                                                    <statement name="ELSE">
+                                                      <block type="variables_set" id="-f^yU3ZwL+D:7JT87;Yb">
+                                                        <field name="VAR" id=":xDM{V+Ad0VT2eK/Z[+?" variabletype="">Q</field>
+                                                        <value name="VALUE">
+                                                          <block type="variables_get" id="ZpdN20fyFjllS^~3ZtR^">
+                                                            <field name="VAR" id="AHuJGJ[_R%g^(f3S{8Xs" variabletype="">结束年天数</field>
+                                                          </block>
+  </value>
+                                                      </block>
+                                                    </statement>
+                                                  </block>
+                                                </statement>
+                                                <next>
+                                                  <block type="controls_if" id="B[.3kk[cLzsVq//k;5w$">
+                                                    <mutation elseif="1" else="1"></mutation>
+                                                    <value name="IF0">
+                                                      <block type="logic_compare" id="FErC^[_o?vvXJ+cl5Ok$">
+                                                        <field name="OP">EQ</field>
+                                                        <value name="A">
+                                                          <block type="math_arithmetic" id="aVg-H#!$SwOgMYtj@!Zz">
+                                                            <field name="OP">MINUS</field>
+                                                            <value name="A">
+                                                              <shadow type="math_number" id="01BDTPR/6%xDKp$0_C!r">
+                                                                <field name="NUM">1</field>
+                                                              </shadow>
+                                                              <block type="variables_get" id="oN[*Z.8P1$6V}2b1Iz3)">
+                                                                <field name="VAR" id="^MWItA~K?KcL[@WC*RqF" variabletype="">结束年</field>
+                                                              </block>
+                                                            </value>
+                                                            <value name="B">
+                                                              <shadow type="math_number" id="_!!jMCdfN(VQ~-wAOd41">
+                                                                <field name="NUM">1</field>
+                                                              </shadow>
+                                                              <block type="variables_get" id="*I28KGKZxOtLsH3gJvOc">
+                                                                <field name="VAR" id="~o|iSzP9G9p-jV#m/./f" variabletype="">初始年</field>
+                                                              </block>
+                                                            </value>
+                                                          </block>
+                                                        </value>
+                                                        <value name="B">
+                                                          <block type="math_number" id="5#ED7pOG{m,T60hA00%N">
+                                                            <field name="NUM">0</field>
+                                                          </block>
+                                                        </value>
+                                                      </block>
+                                                    </value>
+                                                    <statement name="DO0">
+                                                      <block type="controls_if" id="v/5mfiq?Fk)|[oGh`I1F">
+                                                        <mutation else="1"></mutation>
+                                                        <value name="IF0">
+                                                          <block type="logic_operation" id="_i;AhM97hi_}ZG?RYm((">
+                                                            <field name="OP">OR</field>
+                                                            <value name="A">
+                                                              <block type="logic_operation" id="wdyhL(wRJ(X%sOpgo?sc">
+                                                                <field name="OP">AND</field>
+                                                                <value name="A">
+                                                                  <block type="math_number_property" id="Q$gMMJ;+~ka)+d+D:O}i">
+                                                                    <mutation divisor_input="false"></mutation>
+                                                                    <field name="PROPERTY">WHOLE</field>
+                                                                    <value name="NUMBER_TO_CHECK">
+                                                                      <shadow type="math_number" id="l1/aN{$1|om9t~s~g5lw">
+                                                                        <field name="NUM">0</field>
+                                                                      </shadow>
+                                                                      <block type="math_arithmetic" id="e{_?6C8G):K1dUA[63@s">
+                                                                        <field name="OP">DIVIDE</field>
+                                                                        <value name="A">
+                                                                          <shadow type="math_number" id="cDO/U%+ePC!tZhG1X|^;">
+                                                                            <field name="NUM">1</field>
+                                                                          </shadow>
+                                                                          <block type="variables_get" id="7;aM{8j4JZpDi$08)s4!">
+                                                                            <field name="VAR" id="~o|iSzP9G9p-jV#m/./f" variabletype="">初始年</field>
+                                                                          </block>
+                                                                        </value>
+                                                                        <value name="B">
+                                                                          <shadow type="math_number" id="JH4qI0qzXm.Rrk(ZerV%">
+                                                                            <field name="NUM">100</field>
+                                                                          </shadow>
+                                                                        </value>
+                                                                      </block>
+                                                                    </value>
+                                                                  </block>
+                                                                </value>
+                                                                <value name="B">
+                                                                  <block type="math_number_property" id="]0Hm=N}DlNc8E~,_bT#v">
+                                                                    <mutation divisor_input="false"></mutation>
+                                                                    <field name="PROPERTY">WHOLE</field>
+                                                                    <value name="NUMBER_TO_CHECK">
+                                                                      <shadow type="math_number" id="l1/aN{$1|om9t~s~g5lw">
+                                                                        <field name="NUM">0</field>
+                                                                      </shadow>
+                                                                      <block type="math_arithmetic" id="Xf;mo!Kv0S](`xz5DpHF">
+                                                                        <field name="OP">DIVIDE</field>
+                                                                        <value name="A">
+                                                                          <shadow type="math_number" id="~oGWG:#4dz?8a^7yd{1J">
+                                                                            <field name="NUM">1</field>
+                                                                          </shadow>
+                                                                          <block type="variables_get" id="X/GPG]Rn*qhu-LlsMo3/">
+                                                                            <field name="VAR" id="~o|iSzP9G9p-jV#m/./f" variabletype="">初始年</field>
+                                                                          </block>
+                                                                        </value>
+                                                                        <value name="B">
+                                                                          <shadow type="math_number" id="CM$8Ow#rw;H(Fkd9#oo=">
+                                                                            <field name="NUM">400</field>
+                                                                          </shadow>
+                                                                        </value>
+                                                                      </block>
+                                                                    </value>
+                                                                  </block>
+                                                                </value>
+                                                              </block>
+                                                            </value>
+                                                            <value name="B">
+                                                              <block type="logic_operation" id="-p_{|hVl3U;?E.Nh*A4(">
+                                                                <field name="OP">AND</field>
+                                                                <value name="A">
+                                                                  <block type="logic_compare" id="m3g5mT#S4rc.Zl%27I4.">
+ <field name="OP">NEQ</field>
+                                                                    <value name="A">
+                                                                      <block type="math_modulo" id="Fo^3?iH{ic}{jEsh{cUy">
+                                                                        <value name="DIVIDEND">
+                                                                          <shadow type="math_number" id="N8O[U}Q5*sj8!y[Bw0E/">
+                                                                            <field name="NUM">64</field>
+                                                                          </shadow>
+                                                                          <block type="variables_get" id="0$h34pW0xV.^u~sjar_G">
+                                                                            <field name="VAR" id="~o|iSzP9G9p-jV#m/./f" variabletype="">初始年</field>
+                                                                          </block>
+                                                                        </value>
+                                                                        <value name="DIVISOR">
+                                                                          <shadow type="math_number" id="J%znA8`=0RoRNf7WG|}G">
+                                                                            <field name="NUM">100</field>
+                                                                          </shadow>
+                                                                        </value>
+                                                                      </block>
+                                                                    </value>
+                                                                    <value name="B">
+                                                                      <block type="math_number" id="+wactaE86%%LLx~dzOhd">
+                                                                        <field name="NUM">0</field>
+                                                                      </block>
+                                                                    </value>
+                                                                  </block>
+                                                                </value>
+                                                                <value name="B">
+                                                                  <block type="math_number_property" id="C|n@A+1k8%Ymc2Om!YjZ">
+                                                                    <mutation divisor_input="false"></mutation>
+                                                                    <field name="PROPERTY">WHOLE</field>
+                                                                    <value name="NUMBER_TO_CHECK">
+                                                                      <shadow type="math_number" id="l1/aN{$1|om9t~s~g5lw">
+                                                                        <field name="NUM">0</field>
+                                                                      </shadow>
+                                                                      <block type="math_arithmetic" id="8SXauDUr#NoJ,y7tFXsy">
+                                                                        <field name="OP">DIVIDE</field>
+                                                                        <value name="A">
+                                                                          <shadow type="math_number" id="cDO/U%+ePC!tZhG1X|^;">
+                                                                            <field name="NUM">1</field>
+                                                                          </shadow>
+                                                                          <block type="variables_get" id=".^IvLoEfO|*J$fT{pe_B">
+                                                                            <field name="VAR" id="~o|iSzP9G9p-jV#m/./f" variabletype="">初始年</field>
+                                                                          </block>
+                                                                        </value>
+                                                                        <value name="B">
+                                                                          <shadow type="math_number" id=")Uk8]vZ2E5gmA##[($mT">
+                                                                            <field name="NUM">4</field>
+                                                                          </shadow>
+                                                                        </value>
+                                                                      </block>
+                                                                    </value>
+                                                                  </block>
+                                                                </value>
+                                                              </block>
+                                                            </value>
+                                                          </block>
+                                                        </value>
+                                                        <statement name="DO0">
+                                                          <block type="variables_set" id="gg%pGW2|gsivS{{ThoR;">
+                                                            <field name="VAR" id="=hD9yQ4eWTWMlM3e#*qW" variabletype="">总共天数</field>
+                                                            <value name="VALUE">
+                                                              <block type="math_arithmetic" id="nMC|VRT_uuM%z-,Bf0FJ">
+                                                                <field name="OP">MINUS</field>
+                                                                <value name="A">
+                                                                  <shadow type="math_number" id="_T:Q1)GR1uDXt_Wx#8%g">
+                                                                    <field name="NUM">1</field>
+                                                                  </shadow>
+                                                                  <block type="math_arithmetic" id="1/y^%]`DSwA23%$kvZ$m">
+                                                                    <field name="OP">ADD</field>
+                                                                    <value name="A">
+                                                                      <shadow type="math_number" id="U3rNKI,-3ubZrx:Ft!94">
+                                                                        <field name="NUM">1</field>
+                                                                      </shadow>
+                                                                      <block type="variables_get" id="cjnw`R5GS)%0GGp,((S`">
+                                                                        <field name="VAR" id="IDI0O}_16p)T#k@1RI,i" variabletype="">P</field>
+                                                                      </block>
+                                                                    </value>
+                                                                    <value name="B">
+                                                                      <shadow type="math_number" id="kq]_Z9l0Gt]ns9m,FA-l">
+                                                                        <field name="NUM">1</field>
+                                                                      </shadow>
+                                                                      <block type="variables_get" id="_$C2J%msJuV|lyKDZN$,">
+                                                                        <field name="VAR" id=":xDM{V+Ad0VT2eK/Z[+?" variabletype="">Q</field>
+                                                                      </block>
+                                                                    </value>
+                                                                  </block>
+                                                                </value>
+                                                                <value name="B">
+                                                                  <shadow type="math_number" id="E!Mz;DtRmb3wVj)v+RAk">
+                                                                    <field name="NUM">366</field>
+                                                                  </shadow>
+                                                                </value>
+                                                              </block>
+                                                            </value>
+                                                          </block>
+                                                        </statement>
+                                                        <statement name="ELSE">
+                                                          <block type="variables_set" id="17=%2C3jUp]26q[71xUs">
+                                                            <field name="VAR" id="=hD9yQ4eWTWMlM3e#*qW" variabletype="">总共天数</field>
+                                                            <value name="VALUE">
+                                                              <block type="math_arithmetic" id="Tg3~KFdyr=MdAT)f-7^5">
+                                                                <field name="OP">MINUS</field>
+                                                                <value name="A">
+                                                                  <shadow type="math_number" id="_T:Q1)GR1uDXt_Wx#8%g">
+                                                                    <field name="NUM">1</field>
+                                                                  </shadow>
+                                                                  <block type="math_arithmetic" id=";I}B*q#v4~[nv|Dx0()H">
+                                                                    <field name="OP">ADD</field>
+                                                                    <value name="A">
+ <shadow type="math_number" id="U3rNKI,-3ubZrx:Ft!94">
+                                                                        <field name="NUM">1</field>
+                                                                      </shadow>
+                                                                      <block type="variables_get" id="rwaR#V#S.9U@u@_1n6kR">
+                                                                        <field name="VAR" id="IDI0O}_16p)T#k@1RI,i" variabletype="">P</field>
+                                                                      </block>
+                                                                    </value>
+                                                                    <value name="B">
+                                                                      <shadow type="math_number" id="kq]_Z9l0Gt]ns9m,FA-l">
+                                                                        <field name="NUM">1</field>
+                                                                      </shadow>
+                                                                      <block type="variables_get" id="a3@/nPxH]0q-GAAs{+P[">
+                                                                        <field name="VAR" id=":xDM{V+Ad0VT2eK/Z[+?" variabletype="">Q</field>
+                                                                      </block>
+                                                                    </value>
+                                                                  </block>
+                                                                </value>
+                                                                <value name="B">
+                                                                  <shadow type="math_number" id="rwDcThx|o!UgJJfoK%Ua">
+                                                                    <field name="NUM">365</field>
+                                                                  </shadow>
+                                                                </value>
+                                                              </block>
+                                                            </value>
+                                                          </block>
+                                                        </statement>
+                                                      </block>
+                                                    </statement>
+                                                    <value name="IF1">
+                                                      <block type="logic_compare" id="i}dny#S{CT@C_:Jjyesp">
+                                                        <field name="OP">EQ</field>
+                                                        <value name="A">
+                                                          <block type="math_arithmetic" id="BF5)y;of3K0A~(0tGTE5">
+                                                            <field name="OP">MINUS</field>
+                                                            <value name="A">
+                                                              <shadow type="math_number" id="01BDTPR/6%xDKp$0_C!r">
+                                                                <field name="NUM">1</field>
+                                                              </shadow>
+                                                              <block type="variables_get" id="s/sHd@xH]tlLluS0y-Ge">
+                                                                <field name="VAR" id="^MWItA~K?KcL[@WC*RqF" variabletype="">结束年</field>
+                                                              </block>
+                                                            </value>
+                                                            <value name="B">
+                                                              <shadow type="math_number" id="_!!jMCdfN(VQ~-wAOd41">
+                                                                <field name="NUM">1</field>
+                                                              </shadow>
+                                                              <block type="variables_get" id="t3h=#vaBbhg#Ai.E#JPp">
+                                                                <field name="VAR" id="~o|iSzP9G9p-jV#m/./f" variabletype="">初始年</field>
+                                                              </block>
+                                                            </value>
+                                                          </block>
+                                                        </value>
+                                                        <value name="B">
+                                                          <block type="math_number" id="F6d/wv27@[N1:1kjP/jw">
+                                                            <field name="NUM">1</field>
+                                                          </block>
+                                                        </value>
+                                                      </block>
+                                                    </value>
+                                                    <statement name="DO1">
+                                                      <block type="variables_set" id="@ZQMIP3vaX1cbZlbuPly">
+                                                        <field name="VAR" id="=hD9yQ4eWTWMlM3e#*qW" variabletype="">总共天数</field>
+                                                        <value name="VALUE">
+                                                          <block type="math_arithmetic" id="^aD^DIlKn_~4zx_T4[bI">
+                                                            <field name="OP">ADD</field>
+                                                            <value name="A">
+                                                              <shadow type="math_number" id="U3rNKI,-3ubZrx:Ft!94">
+                                                                <field name="NUM">1</field>
+                                                              </shadow>
+                                                              <block type="variables_get" id="AnGF{rxr`%6maIU=7K0z">
+                                                                <field name="VAR" id="IDI0O}_16p)T#k@1RI,i" variabletype="">P</field>
+                                                              </block>
+                                                            </value>
+                                                            <value name="B">
+                                                              <shadow type="math_number" id="kq]_Z9l0Gt]ns9m,FA-l">
+                                                                <field name="NUM">1</field>
+                                                              </shadow>
+                                                              <block type="variables_get" id="J23%8`lHL)~lZE!#g;00">
+                                                                <field name="VAR" id=":xDM{V+Ad0VT2eK/Z[+?" variabletype="">Q</field>
+                                                              </block>
+                                                            </value>
+                                                          </block>
+                                                        </value>
+                                                      </block>
+                                                    </statement>
+                                                    <statement name="ELSE">
+                                                      <block type="controls_for" id="ohcr-n~UWixQfFdkL%KQ">
+                                                        <field name="VAR" id="THV2OY9]jyBXk1Zdd+(!" variabletype="">i</field>
+                                                        <value name="FROM">
+                                                          <shadow type="math_number" id="56c$A3T:j$)^76b4J+Yx">
+                                                            <field name="NUM">1</field>
+                                                          </shadow>
+                                                          <block type="math_arithmetic" id="MN)v0$z|5w@IpmdG{K;B">
+                                                            <field name="OP">ADD</field>
+                                                            <value name="A">
+                                                              <shadow type="math_number" id="7Z$Y}v9AOdts=B+1}C,M">
+                                                                <field name="NUM">1</field>
+                                                              </shadow>
+                                                              <block type="variables_get" id="H:+i|FAjCq#|8,D0zRml">
+                                                                <field name="VAR" id="~o|iSzP9G9p-jV#m/./f" variabletype="">初始年</field>
+                                                              </block>
+                                                            </value>
+                                                            <value name="B">
+                                                              <shadow type="math_number" id="^5^-38euhiA$9d[j-4}g">
+                                                                <field name="NUM">1</field>
+                                                              </shadow>
+                                                            </value>
+                                                          </block>
+                                                        </value>
+                                                        <value name="TO">
+  <shadow type="math_number" id="$dGl7;b2iM]t`3}u3Ab6">
+                                                            <field name="NUM">10</field>
+                                                          </shadow>
+                                                          <block type="math_arithmetic" id="V1OO,,mc8EH^)Xg?W9jC">
+                                                            <field name="OP">MINUS</field>
+                                                            <value name="A">
+                                                              <shadow type="math_number" id="7Z$Y}v9AOdts=B+1}C,M">
+                                                                <field name="NUM">1</field>
+                                                              </shadow>
+                                                              <block type="variables_get" id="vxMN?FIDi,^0tP-xPmgJ">
+                                                                <field name="VAR" id="^MWItA~K?KcL[@WC*RqF" variabletype="">结束年</field>
+                                                              </block>
+                                                            </value>
+                                                            <value name="B">
+                                                              <shadow type="math_number" id="l%85zmGXv:K#Mnq8b3!p">
+                                                                <field name="NUM">1</field>
+                                                              </shadow>
+                                                            </value>
+                                                          </block>
+                                                        </value>
+                                                        <value name="BY">
+                                                          <shadow type="math_number" id="slUOhQCeJOZ?,;,aR,G~">
+                                                            <field name="NUM">1</field>
+                                                          </shadow>
+                                                        </value>
+                                                        <statement name="DO">
+                                                          <block type="controls_if" id="f5_m,zdceI}^nW,,F^%,">
+                                                            <mutation else="1"></mutation>
+                                                            <value name="IF0">
+                                                              <block type="math_number_property" id="2LG*pDx{V8n:Y~f*QK=W">
+                                                                <mutation divisor_input="false"></mutation>
+                                                                <field name="PROPERTY">WHOLE</field>
+                                                                <value name="NUMBER_TO_CHECK">
+                                                                  <shadow type="math_number" id="l1/aN{$1|om9t~s~g5lw">
+                                                                    <field name="NUM">0</field>
+                                                                  </shadow>
+                                                                  <block type="math_arithmetic" id="I[r{TQa68}5sId97^uvo">
+                                                                    <field name="OP">DIVIDE</field>
+                                                                    <value name="A">
+                                                                      <shadow type="math_number" id="~oGWG:#4dz?8a^7yd{1J">
+                                                                        <field name="NUM">1</field>
+                                                                      </shadow>
+                                                                      <block type="variables_get" id="75tDjMW_Wh+%Na)Yt}t8">
+                                                                        <field name="VAR" id="THV2OY9]jyBXk1Zdd+(!" variabletype="">i</field>
+                                                                      </block>
+                                                                    </value>
+                                                                    <value name="B">
+                                                                      <shadow type="math_number" id="o(nGMZ3SW_sQulBrCeWZ">
+                                                                        <field name="NUM">100</field>
+                                                                      </shadow>
+                                                                    </value>
+                                                                  </block>
+                                                                </value>
+                                                              </block>
+                                                            </value>
+                                                            <statement name="DO0">
+                                                              <block type="controls_if" id="*!l0ArJW5).GAD?Pbs?E">
+                                                                <value name="IF0">
+                                                                  <block type="math_number_property" id="]$XH8_uKQ!X}Dc:e=fx2">
+                                                                    <mutation divisor_input="false"></mutation>
+                                                                    <field name="PROPERTY">WHOLE</field>
+                                                                    <value name="NUMBER_TO_CHECK">
+                                                                      <shadow type="math_number" id="l1/aN{$1|om9t~s~g5lw">
+                                                                        <field name="NUM">0</field>
+                                                                      </shadow>
+                                                                      <block type="math_arithmetic" id="Doy((p;KWR;i(:}^E]rh">
+                                                                        <field name="OP">DIVIDE</field>
+                                                                        <value name="A">
+                                                                          <shadow type="math_number" id="~oGWG:#4dz?8a^7yd{1J">
+                                                                            <field name="NUM">1</field>
+                                                                          </shadow>
+                                                                          <block type="variables_get" id="q(oddXsH6L%m5_]e8n}E">
+                                                                            <field name="VAR" id="THV2OY9]jyBXk1Zdd+(!" variabletype="">i</field>
+                                                                          </block>
+                                                                        </value>
+                                                                        <value name="B">
+                                                                          <shadow type="math_number" id="X#MX+SVgGxGbd{S(Hd*s">
+                                                                            <field name="NUM">400</field>
+                                                                          </shadow>
+                                                                        </value>
+                                                                      </block>
+                                                                    </value>
+                                                                  </block>
+                                                                </value>
+                                                                <statement name="DO0">
+                                                                  <block type="math_change" id="DwSNU+EP;G2+@2h#UgJe">
+                                                                    <field name="VAR" id="3},2=WuP{PJ3^SDYFP8f" variabletype="">n</field>
+                                                                    <value name="DELTA">
+                                                                      <shadow type="math_number" id="7RP:AnI*$fz-nLkg:fPF">
+                                                                        <field name="NUM">1</field>
+                                                                      </shadow>
+                                                                    </value>
+                                                                  </block>
+                                                                </statement>
+                                                              </block>
+                                                            </statement>
+                                                            <statement name="ELSE">
+                                                              <block type="controls_if" id="3;Na$XN^AMS6*|u?u/st">
+                                                                <value name="IF0">
+                                                                  <block type="math_number_property" id="h5k57/Ya}C(f^09k$+~C">
+                                                                    <mutation divisor_input="false"></mutation>
+                                                                    <field name="PROPERTY">WHOLE</field>
+                                                                    <value name="NUMBER_TO_CHECK">
+                                                                      <shadow type="math_number" id="l1/aN{$1|om9t~s~g5lw">
+                                                                        <field name="NUM">0</field>
+                                                                      </shadow>
 
 ```
 
