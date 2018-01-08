@@ -33,14 +33,14 @@
 
 ---
 ###XML代码
-因该XML代码过长，故分成7个部分，请点击：
-[第一部分](XML/wusiqing/01.md)  
-[第二部分](XML/wusiqing/02.md)  
-[第三部分](XML/wusiqing/03.md)  
-[第四部分](XML/wusiqing/04.md)  
-[第五部分](XML/wusiqing/05.md)  
-[第六部分](XML/wusiqing/06.md)  
-[第七部分](XML/wusiqing/07.md)  
+因该XML代码过长，故分成7个部分，请点击：  
+[第一部分](/XML/wusiqing/01.md)  
+[第二部分](/XML/wusiqing/02.md)  
+[第三部分](/XML/wusiqing/03.md)  
+[第四部分](/XML/wusiqing/04.md)  
+[第五部分](/XML/wusiqing/05.md)  
+[第六部分](/XML/wusiqing/06.md)  
+[第七部分](/XML/wusiqing/07.md)  
  
 
 
