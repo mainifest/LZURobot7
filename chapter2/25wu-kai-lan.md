@@ -23,7 +23,7 @@
 ---
 ###XML代码
 因该代码过长，故分为十五个部分，请点击  
-[第一部分](XML/wukailan/01.md)  
+[第一部分](master/XML/wukailan/01.md)  
 [第二部分](XML/wukailan/02.md)  
 [第三部分](XML/wukailan/03.md)  
 [第四部分](XML/wukailan/04.md)  
