@@ -39,8 +39,8 @@
 * [ ](/XML/wusiqing/01.md)
 * [ ](/XML/wusiqing/02.md)
 * [ ](/XML/wusiqing/03.md)
-  [ ](/XML/wusiqing/04.md)
-  [ ](/XML/wusiqing/05.md)
+* [ ](/XML/wusiqing/04.md)
+* [ ](/XML/wusiqing/05.md)
 * [ ](/XML/wusiqing/06.md)
 * [ ](/XML/wusiqing/07.md)
 
