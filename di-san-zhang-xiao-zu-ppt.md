@@ -1,0 +1,15 @@
+#第七小组ppt
+---
+![](picture/ppt/01.png)
+![](picture/ppt/02.png)
+![](picture/ppt/03.png)
+![](picture/ppt/04.png)
+![](picture/ppt/05.png)
+![](picture/ppt/06.png)
+![](picture/ppt/07.png)
+![](picture/ppt/08.png)
+![](picture/ppt/09.png)
+![](picture/ppt/10.png)
+![](picture/ppt/11.png)
+![](picture/ppt/12.png)
+![](picture/ppt/13.png)
